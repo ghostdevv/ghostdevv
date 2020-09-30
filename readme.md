@@ -1,4 +1,4 @@
-### Hi there,
+Hi there,
 ## I am GHOST 👋
 Full stack developer from the UK writing opensource and private projects.
 
