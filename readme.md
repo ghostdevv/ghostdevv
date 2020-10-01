@@ -5,6 +5,6 @@ Full stack developer from the UK writing opensource and private projects.
 
 "Any fool can write code that a computer can understand. Good programmers write code that humans can understand."
 
-#UseThePlatform
+#UseThePlatform #AlwaysBetOnJavaScript
 
 ### [Checkout GHOSTs Tools Here](https://github.com/ghoststools)
