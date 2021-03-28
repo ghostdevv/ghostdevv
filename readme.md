@@ -1,10 +1,11 @@
 ## Hi there! I am GHOST 👋
-Full stack developer from the UK writing opensource and private projects.
-
-![GHOST's Stats](https://github-readme-stats.vercel.app/api?username=ghostdevv&show_icons=true)
+I am a Full Stack Web Developer (primarily), working from the UK. I contribute to projects like [Routify](https://github.com/roxiness/routify) and [Dashargs](https://github.com/ghoststools/dashargs).
 
 "Any fool can write code that a computer can understand. Good programmers write code that humans can understand."
 
 #UseThePlatform #AlwaysBetOnJavaScript
 
-### [Checkout GHOSTs Tools Here](https://github.com/ghoststools)
+# Links:
+[Twitter](https://twitter.com/onlyspaceghost)<br>
+[Website](https://ghostdev.xyz)
+[GHOSTs Tools (OS Projects)](https://github.com/ghoststools)
