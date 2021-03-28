@@ -6,6 +6,6 @@ I am a Full Stack Web Developer (primarily), working from the UK. I contribute t
 #UseThePlatform #AlwaysBetOnJavaScript
 
 # Links:
-[Twitter](https://twitter.com/onlyspaceghost)<br>
-[Website](https://ghostdev.xyz)
+[Twitter](https://twitter.com/onlyspaceghost)<br />
+[Website](https://ghostdev.xyz)<br />
 [GHOSTs Tools (OS Projects)](https://github.com/ghoststools)
