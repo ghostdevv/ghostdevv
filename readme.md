@@ -19,7 +19,7 @@ Thanks to my amazing sponsors, you can check them out below and [sponsor me here
 
 |![image](https://user-images.githubusercontent.com/47755378/142604958-c8b70670-7650-485e-a131-5abc6ea55345.png)|
 |---|
-|Scott Spence|
+|[Scott Spence](https://scottspence.com/)|
 
 # Links:
 [Twitter](https://twitter.com/onlyspaceghost)<br />
