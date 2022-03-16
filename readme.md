@@ -24,5 +24,4 @@ Thanks to my amazing sponsors, you can check them out below and [sponsor me here
 # Links:
 [Twitter](https://twitter.com/onlyspaceghost)<br />
 [Website](https://ghostdev.xyz)<br />
-[GHOSTs Tools (OS Projects)](https://github.com/ghoststools)
 
