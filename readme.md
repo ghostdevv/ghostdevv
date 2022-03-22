@@ -1,5 +1,5 @@
 ## Hi there! I am GHOST 👋
-I am a Full Stack Web Developer (primarily), working from the UK. I contribute to projects like [Routify](https://github.com/roxiness/routify) and [Dashargs](https://github.com/ghoststools/dashargs).
+I am a Full Stack Web Developer (primarily), working from the UK. I contribute to many projects, you can checkout some of my newest projects in the pinned repos below.
 
 ### My favourite quotes:
 
