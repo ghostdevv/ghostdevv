@@ -5,7 +5,7 @@ export default defineConfig({
     outputDir: '.',
 
     width: 800,
-    formats: ['png'],
+    formats: ['png', 'svg'],
 
     tiers: [
         {
