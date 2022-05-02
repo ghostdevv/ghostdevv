@@ -1,7 +1,8 @@
 import { defineConfig, presets } from 'sponsorkit'
 
 export default defineConfig({
-    patreon: {},
+    providers: ['patreon'],
+    outputDir: '.',
 
     width: 800,
     formats: ['png'],
