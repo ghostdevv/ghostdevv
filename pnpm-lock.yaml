@@ -1,10 +1,10 @@
 lockfileVersion: 5.3
 
 specifiers:
-  sponsorkit: ^0.4.0
+  sponsorkit: ^0.4.1
 
 devDependencies:
-  sponsorkit: 0.4.0
+  sponsorkit: 0.4.1
 
 packages:
 
@@ -1032,8 +1032,8 @@ packages:
     resolution: {integrity: sha1-2J2Iu9L3Pka1FYqjcKVhIk6A1GE=}
     dev: true
 
-  /sponsorkit/0.4.0:
-    resolution: {integrity: sha512-OKL2Uw0FMHIzgVexyOCmPzzcLNL9S5NPtWS+nt2Tn7JCl0OkgRzlIn/2wLdhgpMEWPzCtyEjI5TF+HHRuctYtg==}
+  /sponsorkit/0.4.1:
+    resolution: {integrity: sha512-vFaispWT+WwYZHW13Bk0JjmINZWSShxwTZoWIrV0JR76sph3pAJv0ocBqy5dDFJj0IcnBB0h73M34DQhYgxxsA==}
     hasBin: true
     dependencies:
       consola: 2.15.3
