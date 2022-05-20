@@ -11,6 +11,14 @@ I am a Full Stack Web Developer (primarily), working from the UK. I contribute t
 "Continuous improvement is better than delayed perfection"<br />
 "The secret of getting ahead is getting started"<br />
 
+<!--
+  Didn't want to include this outside of a comment, but for those reading I think you might enjoy this quote:
+  
+  "with enough random bobble heads running around trying to commit sacrilege on your codebase it quickly becomes a problem of control to maintain the quality"
+
+  - some guy on HN - https://news.ycombinator.com/item?id=31442327
+-->
+
 #UseThePlatform #AlwaysBetOnJavaScript
 
 # Links:
