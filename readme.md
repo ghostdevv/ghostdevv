@@ -1,4 +1,4 @@
-## Hi there! I am GHOST 👋
+## Hi there! I am Willow aka GHOST 👋
 I am a Full Stack Web Developer (primarily), working from the UK. I contribute to many projects, you can checkout some of my newest projects in the pinned repos below.
 
 ### My favourite quotes:
