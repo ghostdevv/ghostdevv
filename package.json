@@ -1,4 +1,7 @@
 {
+	"scripts": {
+		"generate": "sponsorkit"
+	},
 	"devDependencies": {
 		"sponsorkit": "^0.4.2"
 	}
