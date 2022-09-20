@@ -5,9 +5,6 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '0 0 * * *'
-  push:
-    branches:
-      - main
 
 jobs:
   update-sponsors:
@@ -25,8 +22,11 @@ jobs:
         with:
           version: 7.0.0
 
+      - name: Install Dependancies
+        run: pnpm install
+
       - name: Update sponsors
-        run: npm run generate
+        run: pnpm generate
         env:
           SPONSORKIT_PATREON_TOKEN: ${{ secrets.PATREON_TOKEN }}
 
