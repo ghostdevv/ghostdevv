@@ -1,32 +1,29 @@
-## Hi there! I am Willow aka GHOST 👋
-I am a Full Stack Web Developer (primarily), working from the UK. I contribute to many projects, you can checkout some of my newest projects in the pinned repos below.
+## 👋
+
+Hey! I'm Willow (aka GHOST), I help make the JavaScript ecosystem slightly bigger
+
+🇬🇧 🏴󠁧󠁢󠁳󠁣󠁴󠁿 󠁧󠁢󠁳󠁣󠁴󠁿🏳️‍⚧️ 🍋 🐧 🐢
 
 ### My favourite quotes:
 
-"We’re all stories, in the end. Just make it a good one, eh?"<br />
-"Do you know what thinking is? It’s just a fancy word for changing your mind."<br />
-"In 900 years of time and space, I’ve never met anyone who wasn’t important"<br />
-"Yesterday is history, tomorrow is a mystery, but today is a gift... that is why it's called the present"<br />
-"Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away"<br />
-"Continuous improvement is better than delayed perfection"<br />
-"The secret of getting ahead is getting started"<br />
+- "We’re all stories, in the end. Just make it a good one, eh?"
+- "Do you know what thinking is? It’s just a fancy word for changing your mind."
+- "In 900 years of time and space, I’ve never met anyone who wasn’t important"
+- "Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away"
+- "Continuous improvement is better than delayed perfection"
+- "The secret of getting ahead is getting started"
+  <!-- thanks HN https://news.ycombinator.com/item?id=31442327 -->
+- "With enough random bobble heads running around trying to commit sacrilege on your codebase it quickly becomes a problem of control to maintain the quality"
 
-<!--
-  Didn't want to include this outside of a comment, but for those reading I think you might enjoy this quote:
-  
-  "with enough random bobble heads running around trying to commit sacrilege on your codebase it quickly becomes a problem of control to maintain the quality"
+### Links:
 
-  - some guy on HN - https://news.ycombinator.com/item?id=31442327
--->
+- [Twitter](https://twitter.com/onlyspaceghost)<br />
+- [Website](https://ghostdev.xyz)<br />
+- [Patreon](https://www.patreon.com/onlyspaceghost)
 
-#UseThePlatform #AlwaysBetOnJavaScript
+### Sponsor(s?)
 
-# Links:
-[Twitter](https://twitter.com/onlyspaceghost)<br />
-[Website](https://ghostdev.xyz)<br />
-[Patreon](https://www.patreon.com/onlyspaceghost)
-
-# Sponsors
+<sup>TODO: figure out how to make money in open source</sup>
 
 <p align="center">
   <a href="https://cdn.jsdelivr.net/gh/ghostdevv/ghostdevv/sponsors.svg">
