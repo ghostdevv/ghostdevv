@@ -14,6 +14,7 @@ Hey! I'm Willow (aka GHOST), I help make the JavaScript ecosystem slightly bigge
 - "The secret of getting ahead is getting started"
   <!-- thanks HN https://news.ycombinator.com/item?id=31442327 -->
 - "With enough random bobble heads running around trying to commit sacrilege on your codebase it quickly becomes a problem of control to maintain the quality"
+- "It does not do well to dwell on dreams and forget to live"
 
 ### Links:
 
