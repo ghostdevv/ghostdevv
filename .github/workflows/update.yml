@@ -1,39 +1,38 @@
-
 name: Update
 
 on:
-  workflow_dispatch:
-  schedule:
-    - cron: '0 0 * * *'
+    workflow_dispatch:
+    schedule:
+        - cron: '0 0 * * *'
 
 jobs:
-  update-sponsors:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
+    update-sponsors:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v2
 
-      - name: Use Node.js 16.x
-        uses: actions/setup-node@v3
-        with:
-          node-version: 16.x
+            - name: Use Node.js 16.x
+              uses: actions/setup-node@v3
+              with:
+                  node-version: 16.x
 
-      - name: Setup PNPM
-        uses: pnpm/action-setup@v2.2.1
-        with:
-          version: 7.0.0
+            - name: Setup PNPM
+              uses: pnpm/action-setup@v2.2.1
+              with:
+                  version: 7.0.0
 
-      - name: Install Dependancies
-        run: pnpm install
+            - name: Install Dependancies
+              run: pnpm install
 
-      - name: Update sponsors
-        run: pnpm generate
-        env:
-          SPONSORKIT_PATREON_TOKEN: ${{ secrets.PATREON_TOKEN }}
+            - name: Update sponsors
+              run: pnpm generate
+              env:
+                  SPONSORKIT_PATREON_TOKEN: ${{ secrets.PATREON_TOKEN }}
 
-      - name: Commit
-        uses: EndBug/add-and-commit@v4
-        with:
-          message: "chore: update sponsors"
-          add: "sponsors.*"
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+            - name: Commit
+              uses: EndBug/add-and-commit@v4
+              with:
+                  message: 'chore: update sponsors'
+                  add: 'sponsors.*'
+              env:
+                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
