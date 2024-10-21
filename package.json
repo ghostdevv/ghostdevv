@@ -1,4 +1,6 @@
 {
+	"name": "ghostdevv",
+	"private": true,
 	"scripts": {
 		"generate": "sponsorkit"
 	},
