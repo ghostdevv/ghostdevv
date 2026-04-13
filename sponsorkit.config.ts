@@ -1,13 +1,27 @@
 import { defineConfig, tierPresets } from 'sponsorkit';
 
 export default defineConfig({
-	providers: ['patreon'],
-	outputDir: '.',
+	providers: ['patreon', 'opencollective'],
+	opencollective: { slug: 'willow-ghost' },
 
 	width: 800,
 	formats: ['png', 'svg'],
+	outputDir: '.',
+
+	onSponsorsFetched(sponsors, provider) {
+		if (provider === 'opencollective') {
+			console.log(sponsors);
+		}
+
+		return sponsors;
+	},
 
 	tiers: [
+		{
+			title: 'Past Sponsors',
+			monthlyDollars: -1,
+			preset: tierPresets.xs,
+		},
 		{
 			title: 'Backer',
 			preset: tierPresets.small,
@@ -16,21 +30,6 @@ export default defineConfig({
 			title: 'Supporter',
 			monthlyDollars: 5,
 			preset: tierPresets.base,
-		},
-		{
-			title: 'Legend',
-			monthlyDollars: 10,
-			preset: tierPresets.medium,
-		},
-		{
-			title: 'Amazing',
-			monthlyDollars: 20,
-			preset: tierPresets.large,
-		},
-		{
-			title: 'God',
-			monthlyDollars: 35,
-			preset: tierPresets.xl,
 		},
 	],
 });

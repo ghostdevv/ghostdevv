@@ -28,6 +28,7 @@ jobs:
               run: pnpm generate
               env:
                   SPONSORKIT_PATREON_TOKEN: ${{ secrets.PATREON_TOKEN }}
+                  SPONSORKIT_OPENCOLLECTIVE_KEY: ${{ secrets.OPENCOLLECTIVE_TOKEN }}
 
             - name: Commit
               uses: EndBug/add-and-commit@v9
