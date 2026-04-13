@@ -1,39 +1,58 @@
-name: Update Sponsors
+# Based on MIT licensed action from e18e contributors
+# https://github.com/e18e/e18e/blob/1f304c6e11de12e39e26e6a06440b030ad3bfd5e/.github/workflows/sync-sponsors.yml
+# https://github.com/e18e/e18e/blob/1f304c6e11de12e39e26e6a06440b030ad3bfd5e/LICENSE
+
+name: Sync Sponsors
 
 on:
+    schedule:
+        - cron: '0 9 * * 1' # Weekly on Monday at 9am UTC
     workflow_dispatch:
-    # schedule:
-    #     - cron: '0 0 * * *'
+
+permissions:
+    contents: write
+    pull-requests: write
 
 jobs:
-    update-sponsors:
+    sync:
         runs-on: ubuntu-latest
+        if: github.repository == 'ghostdevv/ghostdevv'
         steps:
-            - name: Checkout
-              uses: actions/checkout@v4
+            - name: Clone Repo
+              uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
 
             - name: Setup Node 24
-              uses: actions/setup-node@v4
+              uses: actions/setup-node@6044e13b5dc448c55e2357c09f80417699197238 # v6.2.0
               with:
                   node-version: 24
-                  registry-url: https://registry.npmjs.org/
 
             - name: Setup PNPM
-              uses: pnpm/action-setup@v4
+              uses: pnpm/action-setup@41ff72655975bd51cab0327fa583b6e92b6d3061 # v4.2.0
 
-            - name: Install
+            - name: Install dependencies
               run: pnpm install --frozen-lockfile
 
-            - name: Update sponsors
+            - name: Run SponsorKit
               run: pnpm generate
               env:
                   SPONSORKIT_PATREON_TOKEN: ${{ secrets.PATREON_TOKEN }}
                   SPONSORKIT_OPENCOLLECTIVE_KEY: ${{ secrets.OPENCOLLECTIVE_TOKEN }}
 
-            - name: Commit
-              uses: EndBug/add-and-commit@v9
-              with:
-                  message: 'chore: update sponsors'
-                  add: 'sponsors.*'
+            - name: Check for changes
+              id: changes
+              run: git diff --quiet && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
+
+            - name: Create pull request
+              if: steps.changes.outputs.changed == 'true'
               env:
-                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+                  GH_TOKEN: ${{ github.token }}
+              run: |
+                  git config user.name "github-actions[bot]"
+                  git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+                  git checkout -b sync-sponsors
+                  git add sponsors.png sponsors.svg
+                  git commit -m "chore: sync sponsors"
+                  git push -f origin sync-sponsors
+                  if ! gh pr view sync-sponsors --json state -q '.state' 2>/dev/null | grep -q OPEN; then
+                    gh pr create --title "chore: sync sponsors" --body "sync sponsors"
+                  fi
