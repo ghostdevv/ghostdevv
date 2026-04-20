@@ -37,6 +37,7 @@ jobs:
               env:
                   SPONSORKIT_PATREON_TOKEN: ${{ secrets.PATREON_TOKEN }}
                   SPONSORKIT_OPENCOLLECTIVE_KEY: ${{ secrets.OPENCOLLECTIVE_TOKEN }}
+                  SPONSORKIT_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
             - name: Check for changes
               id: changes

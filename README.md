@@ -17,6 +17,7 @@ Hey 👋! I'm Willow <sub>(aka GHOST)</sub>, and I help make the JavaScript ecos
 - [BlueSky](https://bsky.app/profile/willow.sh)<br />
 - [Website](https://ghostdev.xyz)<br />
 - [Patreon](https://www.patreon.com/onlyspaceghost)
+- [GitHub Sponsors](https://github.com/ghostdevv/ghostdevv)
 
 ### Sponsor(s?)
 
