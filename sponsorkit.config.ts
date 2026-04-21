@@ -16,7 +16,7 @@ export default defineConfig({
 			preset: tierPresets.xs,
 		},
 		{
-			title: 'Backer',
+			title: 'Backers',
 			preset: tierPresets.small,
 		},
 		{
