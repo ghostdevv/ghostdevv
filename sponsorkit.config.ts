@@ -24,5 +24,10 @@ export default defineConfig({
 			monthlyDollars: 5,
 			preset: tierPresets.base,
 		},
+		{
+			title: 'Special Sponsors',
+			preset: tierPresets.medium,
+			monthlyDollars: 200,
+		},
 	],
 });
