@@ -9,14 +9,6 @@ export default defineConfig({
 	formats: ['png', 'svg'],
 	outputDir: '.',
 
-	onSponsorsFetched(sponsors, provider) {
-		if (provider === 'opencollective') {
-			console.log(sponsors);
-		}
-
-		return sponsors;
-	},
-
 	tiers: [
 		{
 			title: 'Past Sponsors',
