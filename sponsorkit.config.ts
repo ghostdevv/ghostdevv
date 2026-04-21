@@ -28,7 +28,7 @@ export default defineConfig({
 			preset: tierPresets.small,
 		},
 		{
-			title: 'Supporter',
+			title: 'Sponsors',
 			monthlyDollars: 5,
 			preset: tierPresets.base,
 		},
