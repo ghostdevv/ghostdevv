@@ -1,7 +1,7 @@
 import { defineConfig, tierPresets } from 'sponsorkit';
 
 export default defineConfig({
-	providers: ['patreon', 'opencollective'],
+	providers: ['patreon', 'opencollective', 'github'],
 	opencollective: { slug: 'willow-ghost' },
 	github: { type: 'user', login: 'ghostdevv' },
 
