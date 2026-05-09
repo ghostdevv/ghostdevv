@@ -8,14 +8,14 @@ Hey 👋! I'm Willow <sub>(aka GHOST)</sub>, and I help make the JavaScript ecos
 - "Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away"
 - "Continuous improvement is better than delayed perfection"
 - "The secret of getting ahead is getting started"
-      <!-- thanks HN https://news.ycombinator.com/item?id=31442327 -->
+  <!-- thanks HN https://news.ycombinator.com/item?id=31442327 -->
 - "With enough random bobble heads running around trying to commit sacrilege on your codebase it quickly becomes a problem of control to maintain the quality"
 - "It does not do well to dwell on dreams and forget to live"
 
 ### Links:
 
 - [BlueSky](https://bsky.app/profile/willow.sh)<br />
-- [Website](https://ghostdev.xyz)<br />
+- [Website](https://willow.sh)<br />
 - [Patreon](https://www.patreon.com/onlyspaceghost)
 - [GitHub Sponsors](https://github.com/ghostdevv/ghostdevv)
 
