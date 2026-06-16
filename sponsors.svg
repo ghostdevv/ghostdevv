@@ -15,7 +15,14 @@ text {
   font-size: 20px;
 }
 </style>
-<text x="400" y="40" text-anchor="middle" class="sponsorkit-tier-title">Sponsors</text><a href="https://www.patreon.com/user?u=65255009" class="sponsorkit-link" target="_blank" id="Braden">
+<text x="400" y="40" text-anchor="middle" class="sponsorkit-tier-title">Sponsors</text><a href="https://npmx.dev" class="sponsorkit-link" target="_blank" id="npmx">
+  
+  <clipPath id="ca5f974">
+    <rect x="284" y="65" width="40" height="40" rx="4" ry="4" />
+  </clipPath>
+  <image x="284" y="65" width="40" height="40" href="data:image/webp;base64,UklGRuQAAABXRUJQVlA4INgAAAAwBwCdASoyADIAPm0ylkakIyIhLhSY4IANiWkABPs+eyzY/O2/JJfGjNVfXOSOtJTxXqmrrSZWkVfnLShY+nOLTAAA/vuc1Z6gO0OtUfsoNqWT+Hnmw/jjjn8Ch0KzR40w2V1tzrtAaSDz7lRpc5w9psB35GPJCe9/3s9f/S5ma/1R1f5LRL1+c242jHctDjwGEijB0ANdXWpvz6kCUq79sumjdV0hDxY6+BbX/9Ar9jBpRMKck9EB2iPs4Uek378C2cNmyzEst4whEs6c2TWvdrG3eAAAAAA=" clip-path="url(#ca5f974)"/>
+</a>
+<a href="https://www.patreon.com/user?u=65255009" class="sponsorkit-link" target="_blank" id="Braden">
   
   <clipPath id="c8f14b9">
     <rect x="332" y="65" width="40" height="40" rx="20" ry="20" />
@@ -35,6 +42,13 @@ text {
     <rect x="428" y="65" width="40" height="40" rx="20" ry="20" />
   </clipPath>
   <image x="428" y="65" width="40" height="40" href="data:image/webp;base64,UklGRkQDAABXRUJQVlA4IDgDAADwDwCdASoyADIAPm0yk0akIyGhJhqtiIANiWIAxuf8e6eapauzxHLho7dHzAecPpxr6JjH+A109/O0qDN37KlwAPXjieHiGxqUMh7Z8en7/QeEpTO2xzHxpbqTSBUzIZytc12wMXQiUpGVe6S8DGQq/lcyYmNnz8MAipYWpeXVbfsgCEJI7EsAAP7+zSWdOaSIqiSyYswHD8CpFZxegzIzADOMnJZqQ/14KY4v9Be0EA4bWxAzkkxtMYI5QPyWYdikkwfVsYugOQZ9hIbIbmL5WrmdD51PhFRJUj5E8cj1TmkTcK3Y92PeVg8hBhw0ZF94OzF7g44H0+ZoL0UZLtaCPAdBqfaeUh72vTvG5CYhKt256a5NqsBVtKVFVu3HAN57lDZKe2BKhK5h1UZbCe0csgaNTcAgtlMlp8Vex+aGGo2dPEFzH/ra3gVo791+Ghvb4WF+rEUs1rAsViqw3llOLId+GkhlQDzXvzAjfMwtnS6IeVpupgqMFOrpn3bBgAE7/XIfJ9a0nTJWIUPcKUhDTQehaMvcLr/KXPFXB4VMEWTgi0tsPcZthcp/ySMXshrn5ENGddO47U+mKKVb3JS5lOy4EN9oO8MXBO8+Phlb4SnBHD0TPrDoUgZoVt42zxhHvxCXDZxpc94VsiQM+Ll768ftJztRORpXDNcyR1164gQPE+a7Y2eMHtV07xCePIlfVhroP9xDoqlxe71+92d/+nan7aJfwOPECMcxV9uu9opba1XxfUHOw8Jx7H/zGeQP4vjyxPiuxnaf4ljyItm/p1tkO2C4afGftHDmRzbz3mL1hbmjGl2dMtmmChihislmnEYyhfriisKmzXd/dIuv/IawHIKJE0QU+3yLarbp+xur7EaMZ/aDySSG1CWX7QA/8EXcQfp4jfDfVHwgd9pfB0tAHFaArkbgTPJms23AnKPrjM3ypcBpo9YPNC96bH8UoFNX9HrKkD7WoAgwDHzQ5K/Lf46wLoxBS58x6i7A9JW2yxDDEi9yByhV14rQ6ns2ZdNRUNIEzIAJNManZt25kmMYkKRX12jJLzirp6GeRHLojnV5Iqg4WQ2F1i/rCALLiP5YIAAAAA==" clip-path="url(#c2a6d29)"/>
+</a>
+<a href="https://github.com/about" class="sponsorkit-link" target="_blank" id="github">
+  
+  <clipPath id="c50a9c8">
+    <rect x="476" y="65" width="40" height="40" rx="4" ry="4" />
+  </clipPath>
+  <image x="476" y="65" width="40" height="40" href="data:image/webp;base64,UklGRhYCAABXRUJQVlA4IAoCAABwDACdASoyADIAPm0wk0YkIyGhMfOYAIANiWkAE9u/QK57MLwQHJy5tvpb/q+4N+pf/F6/foq/sAUirmviLW21zPo3ruYu2s5OQNTbLWS/B0BNhVyQA0Ex0Dhw8Im3G3xL60XvM+dh+amkWIAA/v7MxR9PFfVUPVdjjptECYjaWmPYVp7vXG1gbTdgWiIe47vWiH4j/cbGs632/dRP1vy2gtk9PV7/wj1KOYcoldzhTPAl98/A/i2uPC3R5fkGmZpcGaH2ZY8h1/J03EdVV1oMCbgafjfobPDqQsjbrLEdphyJJv/T38XcfHNRaorLMMbtnDXLy1XZ3ZklwDEl+jtcB/mKNl9WkYlwM/kdGr8LqnlF16SUboKM7wT4doHahYEWuJ9VHPnP6KkkiyyhMDxHpJh45gJOV68Prz+yXiACL3TrPJW5xj6L+WOhBfZAwo0dIyXGfqygDn8LBr/nCB2o8syyNTQxQMJ56AP9RD7Pi9+ecpU+/+8zjkoPS44y8+wVp7ufjTEVxGgOUVXrY73ASTxsdLA4Kp7liKVHRkJk3vndGaTFKlSLmFFE+a9EwZbOIX4TH/9Uf68vy7Yix0HY1IJ2/40vYTTuVE/9fG9jqI+6d0USi+oc3o4athdzzX55jalAo/6Rfud8ZjOVxqno1hEqOez9Q5a6uubNR5KLg5ySt8vZ3AAAAAA=" clip-path="url(#c50a9c8)"/>
 </a><text x="400" y="143" text-anchor="middle" class="sponsorkit-tier-title">Backers</text><a href="https://cowsay.io" class="sponsorkit-link" target="_blank" id="leoriviera">
   
   <clipPath id="c5900b0">
